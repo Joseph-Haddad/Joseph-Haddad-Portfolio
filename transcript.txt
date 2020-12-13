@@ -1,0 +1,403 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20200607212244
+Username: DESKTOP-PJIK2MQ\Joseph Haddad
+RunAs User: DESKTOP-PJIK2MQ\Joseph Haddad
+Configuration Name: 
+Machine: DESKTOP-PJIK2MQ (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12072
+PSVersion: 5.1.17763.1007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.1007
+BuildVersion: 10.0.17763.1007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is transcript.txt
+PS C:\Users\Joseph Haddad\Desktop\Assessment CAB 201\MRRC\MRRC\bin\Debug> ./MRRC
+
+|---- Mates Rates Rent-a-Car Operation Menu ----|
+
+Press the --- Q --- key to exit at anytime.
+Press --- R --- to return to previous menu.
+
+Please Enter a character corresponding to the options below:
+
+a --> Customer Management.
+b --> Fleet Management.
+c --> Rental Management.
+
+a
+
+|---- a) Customer Management ----|
+
+a --> Display Customers
+b --> New Customer
+c --> Modify Customer
+d --> Delete Customer
+d
+What is the ID number of the customer you would like to delete? 13
+You cannot delete customer 13 they are currently renting.
+Failed to Save.
+
+|---- a) Customer Management ----|
+
+a --> Display Customers
+b --> New Customer
+c --> Modify Customer
+d --> Delete Customer
+R
+
+|---- Mates Rates Rent-a-Car Operation Menu ----|
+
+Press the --- Q --- key to exit at anytime.
+Press --- R --- to return to previous menu.
+
+Please Enter a character corresponding to the options below:
+
+a --> Customer Management.
+b --> Fleet Management.
+c --> Rental Management.
+
+c
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+a
+------------------------------------------------------------------
+
+Registration         Customer ID                    Daily Rate
+
+------------------------------------------------------------------
+602VVZ                   0                            80
+------------------------------------------------------------------
+677UIA                   6                          43.3
+------------------------------------------------------------------
+471XBI                   2                            38
+------------------------------------------------------------------
+851VOJ                   3                            50
+------------------------------------------------------------------
+357JIO                  13                            80
+------------------------------------------------------------------
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+R
+
+|---- Mates Rates Rent-a-Car Operation Menu ----|
+
+Press the --- Q --- key to exit at anytime.
+Press --- R --- to return to previous menu.
+
+Please Enter a character corresponding to the options below:
+
+a --> Customer Management.
+b --> Fleet Management.
+c --> Rental Management.
+
+c
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+R
+
+|---- Mates Rates Rent-a-Car Operation Menu ----|
+
+Press the --- Q --- key to exit at anytime.
+Press --- R --- to return to previous menu.
+
+Please Enter a character corresponding to the options below:
+
+a --> Customer Management.
+b --> Fleet Management.
+c --> Rental Management.
+
+b
+
+|---- b) Fleet Management ----|
+
+a --> Display Fleet
+b --> New Vehicle
+c --> Modify Vehicle
+d --> Delete Vehicle
+d
+What is the Registration of the vehicle you would like to delete? 357JIO
+You cannot modify vehicle 357JIO it is currently rented.
+Invalid Input Cannot Save.
+
+|---- b) Fleet Management ----|
+
+a --> Display Fleet
+b --> New Vehicle
+c --> Modify Vehicle
+d --> Delete Vehicle
+R
+
+|---- Mates Rates Rent-a-Car Operation Menu ----|
+
+Press the --- Q --- key to exit at anytime.
+Press --- R --- to return to previous menu.
+
+Please Enter a character corresponding to the options below:
+
+a --> Customer Management.
+b --> Fleet Management.
+c --> Rental Management.
+
+c
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+a
+------------------------------------------------------------------
+
+Registration         Customer ID                    Daily Rate
+
+------------------------------------------------------------------
+602VVZ                   0                            80
+------------------------------------------------------------------
+677UIA                   6                          43.3
+------------------------------------------------------------------
+471XBI                   2                            38
+------------------------------------------------------------------
+851VOJ                   3                            50
+------------------------------------------------------------------
+357JIO                  13                            80
+------------------------------------------------------------------
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+c
+
+Type in the ID of the customer you would like to rent a vehicle to: 13
+You cannot rent out vehicle to customer 13 they are currently renting
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+b
+
+Enter the registration of the vehicle you would like to return: 13
+
+Not in range - Please try another registration.
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+a
+------------------------------------------------------------------
+
+Registration         Customer ID                    Daily Rate
+
+------------------------------------------------------------------
+602VVZ                   0                            80
+------------------------------------------------------------------
+677UIA                   6                          43.3
+------------------------------------------------------------------
+471XBI                   2                            38
+------------------------------------------------------------------
+851VOJ                   3                            50
+------------------------------------------------------------------
+357JIO                  13                            80
+------------------------------------------------------------------
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+b
+
+Enter the registration of the vehicle you would like to return: 357JIO
+
+Vehicle 357JIO has been returned.
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+a
+------------------------------------------------------------------
+
+Registration         Customer ID                    Daily Rate
+
+------------------------------------------------------------------
+602VVZ                   0                            80
+------------------------------------------------------------------
+677UIA                   6                          43.3
+------------------------------------------------------------------
+471XBI                   2                            38
+------------------------------------------------------------------
+851VOJ                   3                            50
+------------------------------------------------------------------
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+c
+
+Type in the ID of the customer you would like to rent a vehicle to: 13
+Type in the REGISTRATION of the customer you would like to rent a vehicle to: 357JIO
+How long is the rental in (days)? 12
+
+Vehicle: 357JIO Has been rented to: 13
+Total cost for: 12 days $960
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+a
+------------------------------------------------------------------
+
+Registration         Customer ID                    Daily Rate
+
+------------------------------------------------------------------
+602VVZ                   0                            80
+------------------------------------------------------------------
+677UIA                   6                          43.3
+------------------------------------------------------------------
+471XBI                   2                            38
+------------------------------------------------------------------
+851VOJ                   3                            50
+------------------------------------------------------------------
+357JIO                  13                            80
+------------------------------------------------------------------
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+d
+
+Enter what you would like to search: gps
+509XRK COMMERCIAL DODGE DAKOTA 2002 4-SEATER MANUAL DIESEL GPS NO-SUNROOF 45.5 BLUE
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+d
+
+Enter what you would like to search:
+234DDG ECONOMY DFS SDF 2020 4-SEATER AUTOMATIC PETROL NO-GPS NO-SUNROOF 50 BLACK
+169FBE ECONOMY PONTIAC FIERO 2M4 1985 2-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 48.8 BLACK
+993QAN COMMERCIAL MITSUBISHI 3000 GT VR-4 1991 2-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 37.8 RED
+509XRK COMMERCIAL DODGE DAKOTA 2002 4-SEATER MANUAL DIESEL GPS NO-SUNROOF 45.5 BLUE
+682GWJ COMMERCIAL AUDI A4 1997 5-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 46.1 BLUE
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+d
+
+Enter what you would like to search: black or gps or manual
+234DDG ECONOMY DFS SDF 2020 4-SEATER AUTOMATIC PETROL NO-GPS NO-SUNROOF 50 BLACK
+169FBE ECONOMY PONTIAC FIERO 2M4 1985 2-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 48.8 BLACK
+993QAN COMMERCIAL MITSUBISHI 3000 GT VR-4 1991 2-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 37.8 RED
+509XRK COMMERCIAL DODGE DAKOTA 2002 4-SEATER MANUAL DIESEL GPS NO-SUNROOF 45.5 BLUE
+682GWJ COMMERCIAL AUDI A4 1997 5-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 46.1 BLUE
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+d
+
+Enter what you would like to search: economy and pontiac and automatic
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+d
+
+Enter what you would like to search: economy and pontiac and manual
+169FBE ECONOMY PONTIAC FIERO 2M4 1985 2-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 48.8 BLACK
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+d
+
+Enter what you would like to search: red or blue
+993QAN COMMERCIAL MITSUBISHI 3000 GT VR-4 1991 2-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 37.8 RED
+509XRK COMMERCIAL DODGE DAKOTA 2002 4-SEATER MANUAL DIESEL GPS NO-SUNROOF 45.5 BLUE
+682GWJ COMMERCIAL AUDI A4 1997 5-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 46.1 BLUE
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+d
+
+Enter what you would like to search: red or blue and gps
+509XRK COMMERCIAL DODGE DAKOTA 2002 4-SEATER MANUAL DIESEL GPS NO-SUNROOF 45.5 BLUE
+682GWJ COMMERCIAL AUDI A4 1997 5-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 46.1 BLUE
+993QAN COMMERCIAL MITSUBISHI 3000 GT VR-4 1991 2-SEATER MANUAL PETROL NO-GPS NO-SUNROOF 37.8 RED
+
+|---- c) Rental Management ----|
+
+a --> Display Rented Vehicles
+b --> Return Vehicle
+c --> Rent a Vehicle
+d --> Search Vehicle
+Q
+PS C:\Users\Joseph Haddad\Desktop\Assessment CAB 201\MRRC\MRRC\bin\Debug> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20200607213022
+**********************
